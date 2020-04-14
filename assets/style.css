@@ -1,0 +1,85 @@
+html,
+body {
+  height: 100%;
+}
+body{
+    background-color: rgba(244, 165, 96, 0.74);
+    /* border: 30px solid rgb(90, 0, 90); */
+  padding: 25px;
+}
+#logo{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+
+}
+.logo-holder{
+    align-content: center;
+    padding: 2px;
+}
+
+#wrapper {
+    width: 960px;
+    height: 95%;
+    box-sizing: border-box;
+    margin: 2.5% auto;
+    background-color: #07010c;
+  }
+  
+  #sub-wrapper {
+    position: relative;
+    top: 15%;
+  }
+  
+  button {
+    display: block;
+    width: 50%;
+    height: 20%;
+    margin: 0 auto;
+    font-size: 42px;
+    cursor: pointer;
+    background: transparent;
+    border: 0;
+
+  }
+  
+  img {
+    height: 300px;
+    width: 450px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  h2 {
+    margin-bottom: 25px;
+    font-size: 35px;
+    color: whitesmoke;
+    text-align: center;
+  }
+  
+  h3 {
+    margin-bottom: 10px;
+    font-size: 25px;
+    color: whitesmoke;
+    text-align: center;
+  }
+  
+  #start {
+    margin-top: 10%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    background: rgb(211, 112, 32);
+    border: 2px solid black;
+  }
+  
+  button:hover {
+    background: rgb(211, 112, 32);
+    border: 2px solid black;
+  }
+  #quiz-area{
+      color: whitesmoke;
+  }
